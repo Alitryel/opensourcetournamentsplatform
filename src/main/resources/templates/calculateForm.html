@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Time Form</title>
+</head>
+<body>
+<h2>Введите данные для расчета времени на разработку</h2>
+<form action="/calculate" method="get">
+    <label for="developmentTime">Примерное время на разработку (часы):</label>
+    <input type="number" id="developmentTime" name="developmentTime" required><br>
+
+    <label for="beerLiters">Литры пива:</label>
+    <input type="number" id="beerLiters" name="beerLiters" required><br>
+
+    <label for="laziness">Уровень лени:</label>
+    <input type="number" id="laziness" name="laziness" required><br>
+
+    <label for="desire">Желание:</label>
+    <input type="number" id="desire" name="desire" required><br>
+
+    <label for="teamSize">Количество людей в проекте:</label>
+    <input type="number" id="teamSize" name="teamSize" required><br>
+
+    <button type="submit">Рассчитать</button>
+</form>
+</body>
+</html>
